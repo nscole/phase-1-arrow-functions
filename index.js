@@ -1,21 +1,11 @@
 // 
 
-
 const divide = (x = 2000, y = 100) => x / y;
     
-
+const square = (x = 2) => x * x;
 
 console.log(divide());
 /*
-describe("index.js", () => {
-  it("has a function expression called divide", () => {
-    expect(divide).to.exist
-  })
-
-  it("divide divides 2000 by 100", () => {
-    expect(divide()).to.equal(20)
-  })
-
   it("has an arrow function called square", () => {
     expect(square).to.exist
   })
